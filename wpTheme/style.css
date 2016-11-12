@@ -224,3 +224,15 @@ h6, .h6 {
   padding: 15px;
   border: #ccc 1px solid;
 }
+
+
+/*  ###### NAV BAR ###### */
+
+.blog-nav a {
+  color: #fff;
+}
+
+
+.blog-nav a:hover {
+  color: #666;
+}

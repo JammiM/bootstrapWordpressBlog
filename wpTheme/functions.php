@@ -1,5 +1,6 @@
 <?php
   // Register Nav Walker class_alias
+  // https://github.com/twittem/wp-bootstrap-navwalker
   require_once('wp_bootstrap_navwalker.php');
 
   //Theme Support
