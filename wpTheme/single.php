@@ -10,9 +10,9 @@
             <div class="blog-post">
 
               <h2 class="blog-post-title">
-                <a href="<?php the_permalink(); ?>">
+
                   <?php the_title(); ?>
-                </a>
+
               </h2>
 
               <p class="blog-post-meta">
@@ -26,7 +26,11 @@
 
                   <?php endif; ?>
 
-                <?php the_excerpt(); ?>
+                <?php the_content(); ?>
+
+                <hr>
+
+                <?php comments_template();  ?>
 
             </div><!-- /.blog-post -->
 
@@ -35,16 +39,6 @@
 
           <?php endif; ?><!-- have_posts()) : -->
 
-
-
-<!--
-          <nav>
-            <ul class="pager">
-              <li><a href="#">Previous</a></li>
-              <li><a href="#">Next</a></li>
-            </ul>
-          </nav>
--->
         </div><!-- /.blog-main -->
 
         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
